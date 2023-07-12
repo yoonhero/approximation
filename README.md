@@ -26,3 +26,9 @@
 ### 사인 함수 
 
 <img src="./assets/sin.png" />
+
+### 피보나치 수열
+
+<img src="./assets/fib.png">
+
+피보나치 수열은 지수함수와 같은 형태를 보이기 때문에 scale이 너무 큰 문제가 있다. 이 문제를 해결하기 위해서 Log를 씌우면 Linear regression 문제가 되어 문제가 간단화된다. 이처럼 스케일이 너무 큰 함숫값은 normalization이 필요하다는 것을 다시금 깨달을 수 있었다. 

@@ -21,11 +21,11 @@ class NotSimpleMLP(nn.Module):
         super().__init__()
 
         self.layer = nn.Sequential(
-            nn.Linear(1, 100),
+            nn.Linear(1, 10),
             nn.ReLU(),
-            nn.Linear(100, 20000),
+            nn.Linear(10, 200),
             nn.ReLU(),
-            nn.Linear(20000, 1),
+            nn.Linear(200, 1),
         )
 
     def forward(self, x):
